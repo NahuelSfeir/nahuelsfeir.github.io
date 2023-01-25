@@ -1,0 +1,108 @@
+/**Los comentarios en CSS se hacen de esta manera*/
+
+/** El asterisco indica que aplica a todos los formatos del html*/
+* {
+    color:black;
+}
+/** si pongo coma entre los elementos, los estilos aplican a todos estos*/
+/** No se como modificar el back-ground del bootstrap, es evidente que impuso otro color*/
+body {
+    background-color: #BED2BE;
+    color: white
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border: 3px solid black;
+    /** el orden de los lados es TOP-RIGHT-BOTTOM-LEFT en el sentido de las agujas*/
+    margin: 20px 80px 10px 80px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align:center
+
+}
+a {
+    font-family: 'Roboto', sans-serif;
+    color: aqua;
+    margin: 50px 5px 30px 5px;
+    object-position: right;
+    text-align:right
+        /** el orden de los lados es TOP-LEFT-BOTTOM-RIGHT en el sentido de las agujas*/
+    padding: 10px 30px 10px 20px;
+    margin: 20px 50px 20px 20px;
+    font-weight: bold;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size:40x;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+    /** el orden de los lados es TOP-RIGHT-BOTTOM-LEFT en el sentido de las agujas*/
+    margin: 20px 80px 10px 80px;
+    text-align:center
+}
+img {border: 6px solid black;
+    margin: 2px 5px 20px 5px;
+    align-content:center
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    border: 1px solid rgb(70, 70, 70);
+    width: 400px;
+    /** el orden de los lados es TOP-LEFT-BOTTOM-RIGHT en el sentido de las agujas*/
+    padding: 10px 30px 10px 20px;
+    margin: 30px 20px 20px 50px;
+    font-weight: bold;
+    color: rgb(70, 70, 70);
+}
+
+section {
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
+
+#Lista1 {
+    font-family: 'Josefin Sans', sans-serif;
+    width: 180px
+}
+
+/**Cuando quiero repetir estilos de un mismo tipo de elemento varias veces, utilizo las clases*/
+.contenido {
+    font-family: 'Josefin Sans', sans-serif;
+    color:darkslategrey;
+    width: 500px;
+    margin: 20px 20px 20px 80px;
+    text-align:justify
+}
+h6 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 8px;
+    border: 1px solid rgb(70, 70, 70);
+    width: 400px;
+    /** el orden de los lados es TOP-LEFT-BOTTOM-RIGHT en el sentido de las agujas*/
+    margin: 30px 20px 20px 50px;
+    color: rgb(70, 70, 70);
+    text-align: center
+}
+button  {
+    color: black;
+    margin-left: 1cm;
+}
+
+#novelas {
+    font-family: 'Josefin Sans', sans-serif;
+    color:darkslategrey;
+    width: 500px;
+    border: 1px solid darkslategrey;
+    padding: 10px 10px 10px 10px;
+    margin: 20px 20px 20px 80px;
+    text-align:justify
+}
+
+h6 {
+    margin: 50px 10px 10px 50px;
+}
